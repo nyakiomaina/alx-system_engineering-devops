@@ -1,2 +1,2 @@
 #!/bin/bash
-nl iacta | grep -w '^3'
+tail -n +3 iocta | head -n 1
