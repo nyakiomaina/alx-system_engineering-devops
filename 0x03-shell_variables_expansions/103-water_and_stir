@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(( $WATER + $STIR ))
+result=$(( $(echo $WATER | tr ew a) + $(echo $STIR | tr ti a) ))
