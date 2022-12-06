@@ -1,2 +1,2 @@
 #!/bin/bash
-decimal=$((2#$BINARY))
+base10=$((2#$BINARY))
